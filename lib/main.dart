@@ -1,25 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_24/Material2.dart';
+import 'package:flutter_app_24/cupertino.dart';
+import 'package:flutter_app_24/layoutsApp.dart';
 import 'package:flutter_app_24/widgets.dart';
 
 // Widgets describe what their view should look like given their current configuration and state.
 
-void main() {
-runApp(
-  // const MaterialApp(
-  //   title:"Flutter.Dev.2024",
-  //   home:SafeArea(
-  //       child:myButton()
-  //   )
-  // )
-   MaterialApp(
-    home:Scaffold(
-      body:Center(
-        child: MyRichText(),
-      )
-    )
-  )
-);
-}
+// void main() {
+// runApp(
+//   // const MaterialApp(
+//   //   title:"Flutter.Dev.2024",
+//   //   home:SafeArea(
+//   //       child:myButton()
+//   //   )
+//   // )
+//    MaterialApp(
+//     home:Scaffold(
+//       body:Center(
+//         child: MyRichText(),
+//       )
+//     )
+//   )
+// );
+// }
+
+void main() => runApp( MyApp2());
 
 // -------------------- Stateless --------------------  it does not change.
 

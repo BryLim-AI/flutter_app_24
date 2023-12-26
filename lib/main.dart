@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_24/widgets.dart';
 
 // Widgets describe what their view should look like given their current configuration and state.
 
@@ -10,10 +11,10 @@ runApp(
   //       child:myButton()
   //   )
   // )
-  const MaterialApp(
+   MaterialApp(
     home:Scaffold(
       body:Center(
-        child: counting(),
+        child: MyRichText(),
       )
     )
   )
